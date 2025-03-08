@@ -1,10 +1,10 @@
-img{
-    height:300px;
-    width:250px;
-    image-orientation: flip;
-    image-rendering: optimizeQuality;
-    background: scroll;
-    padding-bottom: -30%;
+
+    img { /* Targets all images */
+    max-width: 100%; /* Responsive sizing */
+    height: auto;
+    display: block; /* Removes extra space */
+    margin: 10px auto; /* Centers the image */
+
 
 }
 #tx1{
