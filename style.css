@@ -1,9 +1,11 @@
 
-    img { /* Targets all images */
-    max-width: 100%; /* Responsive sizing */
+    img { max-width: 100%; /* Responsive width */
     height: auto;
-    display: block; /* Removes extra space */
-    margin: 10px auto; /* Centers the image */
+    display: block; /* Ensures images stack vertically */
+    margin-top: 20px; /* Spacing ABOVE each image */
+    margin-bottom: 20px; /* Spacing BELOW each image */
+    margin-left: auto; /* Centers images horizontally */
+    margin-right: auto; /* Centers images horizontally */
 
 
 }
